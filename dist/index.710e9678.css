@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.contenedor {
+  padding: 30px;
+}
+
+@media (min-width: 600px) {
+  .contenedor {
+    padding: 0;
+    width: 593px;
+  }
+}
+
+@media (min-width: 600px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.contenedor-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.710e9678.css.map */
